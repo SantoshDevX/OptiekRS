@@ -1,0 +1,71 @@
+
+body{text-align:center;background-color:white;color:black;font-family:Trebuchet ms;}
+h1{color:red;background-color:black;font-family:"Trebuchet MS";}
+div#fixedheader {position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:green;
+	background:black;
+	padding:60px;}
+
+.navigation
+{width:100%;
+/*background:black; */
+height:0px;
+padding-top:0px;
+color:white;
+font-size:16px;
+font-family:"Trebuchet MS";
+position:fixed;
+top:0;
+}
+
+
+.navigation >ul >li 
+{list-style-type:none; 
+display:inline-block;
+padding:0px 25px;
+position:relative;
+}
+
+.navigation >ul >li:hover{background-color:grey;}
+
+ul.submenu
+{position:absolute;
+background-color:grey;
+list-style-type:none;
+width:180px;
+padding-left:0px;
+margin-left:-25px;
+opacity: 0;}
+
+ul.submenu li
+{padding-left:25px;
+padding-top:5px;
+padding-bottom:5px;}
+
+ul.submenu li:hover{color:blue;
+background-color:red;}
+
+.navigation li:hover .submenu {opacity: 1;}
+
+
+.footer{
+margin:0px;
+border:0px;
+padding-top:20px;
+background-color:black;
+height:100px;position:fixed;}
+
+.copyright{
+margin:0px;
+padding:0px 10px;
+color:white;
+}
+
+a:link{color:white;text-decoration:none}
+	a:visited{color:white;text-decoration:none}
+	a:hover{color:white;text-decoration:none}
+	a:active{color:white;text-decoration:none} 
+	
